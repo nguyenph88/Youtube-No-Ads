@@ -1,16 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <title>Pure Youtube - No add, no comment, instant load</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="http://www.google.com/jsapi?key=AIzaSyCosRhsB-p5L5UZ7jcDJeLYZnn_5x4K8hc" type="text/javascript"></script>
     <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
     <script src="api.js" type="text/javascript"></script>
-
+    <script src="cookies.js" type="text/javascript"></script>
 </head>
 <body>
+
+<style>#forkongithub a{background:#005;color:#fff;text-decoration:none;font-family:arial, sans-serif;text-align:center;font-weight:bold;padding:5px 40px;font-size:1rem;line-height:2rem;position:relative;transition:0.5s;}#forkongithub a:hover{background:#060;color:#fff;}#forkongithub a::before,#forkongithub a::after{content:"";width:100%;display:block;position:absolute;top:1px;left:0;height:1px;background:#fff;}#forkongithub a::after{bottom:1px;top:auto;}@media screen and (min-width:800px){#forkongithub{position:absolute;display:block;top:0;right:0;width:200px;overflow:hidden;height:200px;}#forkongithub a{width:200px;position:absolute;top:60px;right:-60px;transform:rotate(45deg);-webkit-transform:rotate(45deg);box-shadow:4px 4px 10px rgba(0,0,0,0.8);}}</style><span id="forkongithub"><a href="https://github.com/nguyenph88/Youtube-No-Ads">Fork me on GitHub</a></span>
+
 <div id="bigFrame">
     <div id="wrapper">
         <div id="header" class="clearfix">
@@ -28,9 +30,15 @@
                 <div id="playlist" class="clearfix">&nbsp;</div>
             </div>
         </div>
-      <div id="originalInfo" class="clearfix"><br />
-        <span id="oriName1">Original Name : </span><input id="originalName" value="" spellcheck="false"></input>
-        <span id="oriLink1">Original Link : </span><input id="originalLink" value="" spellcheck="false"></input>
+        <div id="originalInfo" class="clearfix"><br />
+        	<span id="oriName1">Original Name : </span><input id="originalName" value="" spellcheck="false"></input>
+        	<span id="oriLink1">Original Link : </span><input id="originalLink" value="" spellcheck="false"></input>
+        </div>
+        <div id="footer" class="clearfix"><br /><br /><br />
+        	<p>-----------------------------------------------------</p>
+            Copyright by (c) Youtube and other parties, of couse not me.<br />
+            This website is created to illustrate the Pure Youtube without Ads (well not all, but at least no longer have long ads), comments, miscellaneous links, spams, with instant search algorithm (by Feross@Standford) and whatever ... That's fast, isn't it? :)<br />
+            </p>
         </div>
     </div>
 </div>

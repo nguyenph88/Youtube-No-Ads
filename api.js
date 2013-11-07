@@ -1,3 +1,7 @@
+// Youtube Instant Load Algorithm is from Feross
+// He owns the script and algorithm
+// I own nothing :(
+
 google.load("swfobject", "2.1");
 google.load("jquery", "1.4.2");
 
